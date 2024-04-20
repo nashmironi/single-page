@@ -1,7 +1,7 @@
 import Header from "../components/Header";
-
 import EmblaCarousel from "../EmblaCarousel";
-import { EmblaOptionsType } from 'embla-carousel'
+import Footer from "../components/Footer";
+
 
 
 
@@ -51,8 +51,9 @@ const Home = () => {
          
          <div className=" md:mt-[120px]">
             <h2 className=" text-black text-2xl font-bold md:text-4xl">My Work</h2>
-            <EmblaCarousel />
          </div>
+         <div className=" mb-[200px] w-full"><EmblaCarousel /></div>
+         
 
          <div className="  h-[353px] rounded-[10px] bg-black p-[24px] flex flex-col items-center md: w-full lg:flex-row lg:gap-[182px] lg:justify-around">
             <div className=" lg:w-[540px] lg:ml-[65px]">
@@ -62,7 +63,8 @@ const Home = () => {
             <button className=" w-[176px] h-[44px] rounded-[28px] bg-light_red  mt-6 text-white text-sm font-bold leading-7  lg:w-[228px] lg:h-[56px] ">Free Consultation</button>
          </div>
         </div>
-        <Header />
+        
+        <Footer/>
       </div>
     );
   };

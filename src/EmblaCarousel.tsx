@@ -1,7 +1,10 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-
-
+import Lurji from './assets/Bitmap(1).png';
+import Indigo from './assets/Bitmap(2).png';
+import Gazeti from './assets/Bitmap(3).png';
+import Wigni from './assets/Bitmap(4).png';
+import Telefoni from './assets/Bitmap(5).png';
 
 
 const responsive = {
@@ -31,23 +34,16 @@ const EmblaCarousel = () => {
     
   
       <Carousel 
-      
-      // draggable={true}
-      // showDots={true}
-      // pauseOnHover={true}
       responsive={responsive}
-      // autoPlaySpeed={3000}
-      // keyBoardControl={true}
-      // containerClass="container-with-dots"
-      // removeArrowOnDeviceType={["tablet", "mobile"]}
-      // dotListClass="custom-dot-list-style"
-      // itemClass=""
+      removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
+      dotListClass="custom-dot-list-style"
+      
       >
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
+    <div> <img src={Lurji}/></div>
+    <div><img src={Indigo}/></div>
+    <div><img src={Gazeti}/></div>
+    <div><img src={Wigni}/></div>
+    <div><img src={Telefoni}/></div>
 </Carousel>
       
 
