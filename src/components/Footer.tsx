@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <div className=" flex flex-row justify-between items-center">
+      <footer className=" flex flex-row justify-between items-center">
         <div className=" w-12 h-12 bg-black flex flex-col items-center justify-center align-middle">
           <div className=" w-6 h-6 border-white border-[2px] rounded-full"></div>
         </div>
@@ -10,7 +10,7 @@ const Footer = () => {
             Free Consultation
           </p>
         </div>
-      </div>
+      </footer>
     </>
   );
 };
